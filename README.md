@@ -86,6 +86,25 @@ You've successfully run and modified your React Native App. :partying_face:
 
 If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
 
+# GitHub Activity Tracking
+
+## 🚨 Important: Commits Not Showing in Your GitHub Activity?
+
+If your commits to this repository aren't appearing in your GitHub streak and activity chart, you need to configure git properly. This is a common issue that happens when git is configured with incorrect user information.
+
+### Quick Fix:
+```bash
+# Run the automated setup script
+./setup-git-config.sh
+
+# Or check your current configuration
+./check-git-config.sh
+```
+
+📖 **For detailed instructions, see [GITHUB_ACTIVITY_GUIDE.md](./GITHUB_ACTIVITY_GUIDE.md)**
+
+---
+
 # Learn More
 
 To learn more about React Native, take a look at the following resources:
